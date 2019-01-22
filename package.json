@@ -1,0 +1,24 @@
+{
+  "name": "minecraft-server-lambda-automation",
+  "version": "0.0.1",
+  "description": "AWS Lambda functions for micromanaging Minecraft server uptime",
+  "main": "index.js",
+  "repository": "https://github.com/btk5h/minecraft-server-lambda-automation",
+  "author": "Bryan Terce <bryan.terce@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "aws-sdk": "^2.391.0",
+    "babel-loader": "^8.0.5",
+    "prettier": "^1.16.0",
+    "serverless-webpack": "^5.2.0",
+    "webpack": "^4.29.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "minecraft-pinger": "^1.0.3",
+    "modern-rcon": "^1.0.3"
+  }
+}
