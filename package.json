@@ -18,6 +18,7 @@
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
+    "delay": "^4.1.0",
     "minecraft-pinger": "^1.0.3",
     "modern-rcon": "^1.0.3"
   }

@@ -26,6 +26,7 @@ package:
 functions:
   shutdown:
     handler: src/entry/shutdown.default
+    timeout: 10
 
 custom:
   webpack:
